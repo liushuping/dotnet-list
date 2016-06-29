@@ -1,12 +1,14 @@
 {
   "version": "1.0.0-*",
-  "description": "List all dependencies in the package.",
+  "description": "List all dependencies in a .net core project.",
   "name": "dotnet-list",
   "copyright": "ghost 2016",
   "title": "dotnet-list",
+  "projectUrl": "https://github.com/liushuping/dotnet-list",
   "authors": [
     "Shuping LIU"
   ],
+  "summary": "List all dependencies in a .net core project which is defined by project.json",
   "language": "en-US",
   "buildOptions": {
     "emitEntryPoint": true
@@ -31,5 +33,11 @@
       "url": "https://github.com/liushuping/dotnet-list.git"
     },
     "releaseNotes": "Initial version"
-  }
+  },
+  "tags": [
+    ".NET Core",
+    "dotnet",
+    "Dependencies"
+  ],
+  "licenseUrl": "https://raw.githubusercontent.com/liushuping/dotnet-list/master/LICENSE"
 }
