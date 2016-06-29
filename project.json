@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0-*",
+  "description": "List all dependencies in the package.",
+  "name": "dotnet-list",
+  "copyright": "ghost 2016",
+  "title": "dotnet-list",
+  "authors": [
+    "Shuping LIU"
+  ],
+  "language": "en-US",
+  "buildOptions": {
+    "emitEntryPoint": true
+  },
+  "dependencies": {
+    "Microsoft.NETCore.App": {
+      "type": "platform",
+      "version": "1.0.0-rc2-3002702"
+    },
+    "Newtonsoft.Json": {
+      "version": "*"
+    }
+  },
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": "dnxcore50"
+    }
+  },
+  "packOptions": {
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/liushuping/dotnet-list.git"
+    },
+    "releaseNotes": "Initial version"
+  }
+}
